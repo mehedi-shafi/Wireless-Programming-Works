@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Custom Listview EditText</string>
+    <string name="enter_text">Number of courses</string>
+    <string name="go_text">Go</string>
+    <string name="course_id_text">Course Id</string>
+    <string name="gpa_text">GPA</string>
+    <string name="cgpa_text">CGPA</string>
+    <string name="course_number_hint">Number of course</string>
+    <string name="credit_text">Credit</string>
+    <string name="grade_text">Grade</string>
+    <string name="back_main">Back To Main</string>
+</resources>

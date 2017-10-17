@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="go_currency">Currency Converter</string>
+    <string name="input_hint">BDT</string>
+    <string name="tk_text">TK</string>
+    <string name="usd_text">USD</string>
+    <string name="cd_text">CAD</string>
+    <string name="dollar">$</string>
+    <string name="tk">৳</string>
+    <string name="calculate_button">Caculate</string>
+    <string name="converted_text">Converted</string>
+    <string name="back_button">Back to Main</string>
+    <string name="us_dollar">US$</string>
+    <string name="ca_dollar">CA$</string>
+    <string name="ta_da">TA DA</string>
+    <string name="go_last">Go Last</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/list_item_shadow">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Course #">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit_text"
+        android:layout_toRightOf="@id/course_id"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/credit_text"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit_input"
+        android:layout_toRightOf="@id/credit_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grade_text"
+        android:layout_toRightOf="@id/credit_input"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/grade_text"
+        android:textSize="18sp"
+        android:textStyle="bold"        />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/grade_input"
+        android:layout_toRightOf="@id/grade_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:inputType="numberDecimal"/>
+
+</RelativeLayout>
