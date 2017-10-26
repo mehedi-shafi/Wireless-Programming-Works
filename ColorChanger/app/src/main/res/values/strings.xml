@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Color Changer</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="dripping_red">Dripping Red</string>
+    <string name="white">White</string>
+    <string name="cyan_green">Greenish Cyan</string>
+    <string name="brown">Chocolate</string>
+    <string name="yellow">Yellow</string>
+    <string name="light_blue_grey">Light Bluish Grey</string>
+</resources>
