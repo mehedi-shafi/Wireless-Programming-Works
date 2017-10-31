@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab Work 3</string>
+
+    <!-- Division names-->
+
+    <string name="dhaka">Dhaka</string>
+    <string name="barishal">Barishal</string>
+    <string name="sylhet">Sylhet</string>
+    <string name="chittagong">Chittagong</string>
+    <string name="mymen">Mymensingh</string>
+    <string name="raj">Rajshahi</string>
+    <string name="khulna">Khulna</string>
+    <string name="rangpur">Rangpur</string>
+    <string name="title_activity_division_">Division_Activity</string>
+
+    <!-- division info-->
+    <string name="places_text">Places you might like</string>
+</resources>

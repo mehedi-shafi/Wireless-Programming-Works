@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="mehedi.shafi.labwork3.DivisionActivity"
+    android:background="@drawable/main_bg_gradient">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/division_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/bloody_red"
+            android:id="@+id/division_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#252121"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="@string/places_text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/place_list"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:divider="@color/deep_blue_grey"
+                android:dividerHeight="5dp"
+                android:layout_marginBottom="20dp">
+            </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>
