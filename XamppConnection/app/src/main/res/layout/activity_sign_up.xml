@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wireless.aclass.project.xamppconnection.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:id="@+id/center_relative">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/input_linear_login">
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_hint"
+                android:gravity="center"
+                android:textColor="@color/shadow_dark"
+                android:id="@+id/username_login"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textColor="@color/shadow_dark"
+                android:id="@+id/password_login"/>
+            
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_hint"
+                android:gravity="center"
+                android:textColor="@color/shadow_dark"
+                android:id="@+id/email_signup"/>
+            
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_hint"
+                android:gravity="center"
+                android:textColor="@color/shadow_dark"
+                android:id="@+id/name_signup"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_below="@id/input_linear_login"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/login_button_bg"
+            android:layout_marginTop="10dp"
+            android:text="@string/signup_text"
+            android:textSize="15sp"
+            android:textColor="@color/sky_blue"
+            android:id="@+id/signup_button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup_button"
+            android:layout_marginTop="10dp"
+            android:text="@string/already_have"
+            android:id="@+id/donthave_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup_button"
+            android:layout_toRightOf="@id/donthave_text"
+            android:layout_marginLeft="10dp"
+            android:text="@string/login_prompt"
+            android:layout_marginTop="10dp"
+            android:id="@+id/signup_login"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

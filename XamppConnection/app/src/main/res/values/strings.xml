@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Xampp Connection</string>
+    <string name="login">Log In</string>
+    <string name="signup"><u>Sign Up</u></string>
+    <string name="donthave">Don\'t have an account?</string>
+    <string name="username_hint">User name</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="name_hint">Name</string>
+    <string name="already_have">Already have an account?</string>
+    <string name="login_prompt"><u>Log In</u></string>
+    <string name="signup_text">Sign Up</string>
+</resources>
